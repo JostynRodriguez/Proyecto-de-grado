@@ -1,0 +1,73 @@
+
+.caja3{
+  width: 70px;
+  height: 30px;
+  color: BLACK;
+}
+
+.rayita{
+  position: fixed;
+  top: 0%; right: 0%;
+  margin-top: 18%; width: 2px;
+  height: 220px; background-color: black;
+}
+
+
+.posicion{
+  position: fixed;
+  top: 0px;
+  right: 0%;
+  margin-top: 20%;
+}
+
+.posicion1{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  margin-top: 25%;
+}
+
+
+.posicion3{
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  margin-top: 30%;
+}
+
+
+/*Para el otro menú*/
+.imagen ul li{
+  margin-left:60px;
+  padding: 16px;
+}
+
+.pa{
+  margin-left:60px;
+  padding: 16px;
+  font-family: "Candy Cake";
+}
+
+  .pa ul li{
+      display: inline;
+      width: auto;
+      margin-left:60px;
+      padding: 16px;
+      border-radius: 20px;
+      background-color: LightCyan;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .pa a:hover{
+      background-color: White;
+      }
+
+    .pa a:active{
+        background-color: aqua;
+        }
+
+    .pa a:visited
+      {
+        color: green;
+        }

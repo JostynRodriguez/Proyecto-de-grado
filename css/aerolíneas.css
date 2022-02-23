@@ -1,0 +1,203 @@
+html{
+  font-family:'Roboto', sans-serif;
+}
+
+.aerolíneas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+b{
+  font-size: 14px;
+  font-family:'Roboto', sans-serif;
+}
+
+.aerolíneas div{
+  font-family:'Arial narrow';
+  background-image: url("img/vuelo.png");
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  width: 350px;
+  height: 310px;
+  margin: 30px;
+  text-align: left;
+  font-size: 13px;
+  border-radius: 30px;
+}
+
+.aerolíneas img{
+  border-radius: 30px;
+}
+
+
+.aerolíneas p{
+  color: black;
+  font-family: "Candy Cake";
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+
+
+/*Parte para los contenidos*/
+.contenidos{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content:space-between;
+}
+
+.contenidos div{
+  background-color:white;
+  width: 360px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  line-height: 20px;
+  font-size: 13px;
+  border-bottom: solid black;
+}
+
+/*Parte para el encabezado*/
+.logo{
+  display: flex;
+  font-family: "Candy Cake";
+  justify-content:space-between;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo div {
+  width: 300px;
+  height: 100px;
+  right: 100px;
+  padding: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*Caja falsa
+.falsa{
+  padding:6px;
+  height:96px;
+}*/
+
+
+
+
+/*Para el menú y la imagen*/
+.menú{
+  padding: 10px;
+}
+
+
+/*Para el menú número 2*/
+.menú2{
+ padding:7px;
+ display: flex;
+ flex-wrap: wrap;
+ height:130px;
+ justify-content: center;
+ font-family: "Candy Cake";
+ size:
+}
+
+.menú2 div{
+ background-color:white;
+ width: 100px;
+ height: 100px;
+ margin-left: 35px;
+ text-align: center;
+ font-size: 18px;
+}
+
+/*Imagen con movimento*/
+.imagen{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.imagen ul{
+  display: flex;
+  margin: 10px;
+  width: 500%;
+  padding: 0px;
+  animation: cambio 20s infinite alternate;
+}
+
+.imagen li{
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+  background-color: white;
+}
+
+.imagen img{
+  border-radius: 70px;
+  padding: 0px;
+  width: 100%;
+  height: 510px;
+}
+
+@keyframes cambio{
+  0% {margin-left: 0;}
+  30% {margin-left: 0;}
+
+  40% {margin-left: -100%;}
+  65% {margin-left: -100%;}
+
+  65% {margin-left: -200%;}
+  75% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+
+  100% {margin-left: -400%;}
+  150% {margin-left: -400%;}
+}
+
+/*Pie de página*/
+.pie{
+  display: flex;
+  background-color: SkyBlue;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.pie1{
+  width: 900px;
+  height: 150px;
+  border-radius: 10px;
+  margin:10px;
+  padding:15px;
+  font-size:13px;
+}
+
+.pie2{
+  width: 90px;
+  height: 150px;
+  font-family:'Arial narrow';
+  border-radius: 10px;
+  margin:10px;
+  padding:15px;
+  font-size:13px;
+}

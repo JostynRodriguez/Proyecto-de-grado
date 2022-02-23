@@ -1,0 +1,197 @@
+html{
+  font-family:'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+body{
+  background: LightCyan;
+}
+
+/*Texto del contenido*/
+.covid{
+  display: flex;
+  font-family: "Candy Cake";
+  background: url("../img/covid.gif");
+  margin-top: 50px;
+  width: 100%;
+  height: 460px;
+  border-radius: 10px;
+}
+
+.covid div{
+  margin-top: 150px;
+  color: white;
+  margin-left: 250px;
+  height: 300px;
+  text-align: center;
+  font-size: 90px;
+}
+
+
+.vision {
+  margin-top: 20px;
+  border-radius: 20px;
+  height: 350px;
+}
+
+.mision div{
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.acerca {
+  margin-top: 30px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+  border-radius: 20%;
+  height: 500px;
+}
+
+.noticias {
+  margin-top: 30px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+  border-radius: 40px;
+  height: 400px;
+}
+
+.noticias img {
+  border-radius: 40px;
+}
+
+.noti img {
+  border-radius: 100%;
+}
+
+.acerca img {
+  border-radius: 20%;
+}
+
+h2{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.noti{
+  border: 10px, solid;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.noti div{
+  text-align: center;
+  border: 10px, solid;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+  background-color: white;
+  border-radius: 20px;
+  height: 350px;
+  width: 420px;
+  font-size: 13px;
+}
+
+
+.texto{
+  margin-top: 10px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.texto b{
+  font-size: 30px;
+  line-height: 10px;
+}
+
+/*Para el otro menú*/
+
+ul li{
+    display: inline;
+    width: auto;
+    margin-left:60px;
+    padding: 16px;
+    font-family: "Candy Cake";
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+    background-color: LightCyan;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  .menú{
+    height: 100%;
+    font-family: "Candy Cake";
+    background-color: white;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+    width: 100%;
+  }
+
+p{
+  font-size: 20px;
+}
+
+
+/*Pasar el mouse*/
+a:hover {
+  background-color: white;
+}
+
+/*Active cuando presioneas el enlace*/
+a:active {
+  background-color: yellow;
+}
+
+/*Visited cuando algo fue visitado*/
+a:visited {
+  background-color: green;
+}
+
+/*nth-child dar estilo a un elemento específico*/
+p:nth-child(4){
+  background-color: #F52CFF;
+}
+
+/*Parte para el encabezado*/
+.logo{
+  display: flex;
+  justify-content:space-between;
+  background-color: white;
+  border-radius: 20px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo div {
+  width: 300px;
+  font-family: "Candy Cake";
+  height: 100px;
+  right: 100px;
+  padding: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Visión {
+  margin-top:1000px;}
+
+
+  .Misión {
+    margin-top:1000px;}
+
+    .Acerca {
+      margin-top:1000px;}
+
+      .Noticias {
+        margin-top:1000px;}

@@ -1,0 +1,160 @@
+/*Para el menú*/
+.menú2{
+margin-top: 20px;
+ padding:7px;
+ display: flex;
+ flex-wrap: wrap;
+ height:100%;
+ font-family: "Candy Cake";
+ size:
+}
+
+.menú2 div{
+ background-color:white;
+ width: 100px;
+ height: 100px;
+ margin-left: 57px;
+ text-align: center;
+ font-size: 18px;
+}
+
+h1{
+  font-family: "Candy Cake";
+  font-size: 90px;
+  text-align: center;
+  background-color: SkyBlue;
+}
+
+.ServiciosGratiutos{
+  margin-top: 1000px;
+}
+
+.Gratiutos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0x;
+}
+
+.Gratiutos b{
+  font-family: "Candy Cake";
+  font-size: 20px;
+}
+
+
+.Gratiutos div{
+  font-family:'arial narrow';
+  border-bottom: black solid;
+  width: 340px;
+  height: 280px;
+  margin: 30px;
+  text-align: left;
+  font-size: 17px;
+}
+
+
+.aero{
+  margin-top: 1000px;
+}
+
+.aerolíneas{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+.aerolíneas div{
+  font-family:'arial narrow';
+  width: 350px;
+  height: 310px;
+  margin: 30px;
+  text-align: left;
+  border-bottom: solid black;
+  font-size: 15px;
+}
+
+
+.aerolíneas p{
+  color: black;
+  font-family: "Candy Cake";
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+
+
+
+.Equipaje{
+  margin-top: 1000px;
+}
+
+
+.equipaje{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0x;
+}
+
+.equipaje b{
+  font-family: "Candy Cake";
+  font-size: 20px;
+}
+
+
+.equipaje div{
+  font-family:'arial narrow';
+  border-bottom: black solid;
+  width: 340px;
+  height: 350px;
+  margin: 30px;
+  text-align: left;
+  font-size: 17px;
+}
+
+
+
+.Especial{
+  margin-top: 1000px;
+}
+
+
+.espe{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0x;
+}
+
+.espe b{
+  font-family: "Candy Cake";
+  font-size: 20px;
+}
+
+
+.espe div{
+  font-family:'arial narrow';
+  border-bottom: black solid;
+  width: 300px;
+  height: 320px;
+  margin: 30px;
+  text-align: left;
+  font-size: 17px;
+}
+
+form{
+  margin-top: 10px;
+}
+
+input{
+  background-color: #AFFFF3;
+  border-radius: 20px;
+  width: 160px;
+  height: 30px;
+  font-family: "Candy Cake";
+  font-size: 20px;
+  border: 0px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .7);
+}
